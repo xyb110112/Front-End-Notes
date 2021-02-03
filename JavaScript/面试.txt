@@ -1,0 +1,82 @@
+一、JS篇
+  原型
+  作用域
+  继承
+  ES6
+  call、apply、bind、new、instanceOf
+  节流和防抖
+  深拷贝
+  函数柯里化
+  数组排序
+  Promise
+  async/await
+  Event Loop
+  图片懒加载
+  0.1 + 0.2 为什么不等于0.3
+  setInterval为什么时间间隔不准确
+二、CSS篇
+  水平垂直居中
+  BFC
+  flex布局
+  层叠上下文
+  containing block
+  移动端1px
+  移动端适配
+  移动端layout viewport、visual viewport、ideal viewport
+三、网络篇
+  跨域
+  TCP三次握手、四次挥手
+  http1.0、http1.1、http2
+  https原理
+  http状态码
+  OSI七层模型和TCP/IP四层模型
+四、浏览器篇
+  浏览器输入一个url到最终页面展示过程
+  cookie、session、token
+  浏览器缓存策略
+  重绘和回流以及如何优化
+五、webpack
+  webpack常用配置
+  webpack plugin loader
+  webpack打包优化
+六、场景篇
+  性能优化
+七、框架篇(主要vue)
+  vue虚拟dom的diff原理
+  vue双向绑定原理
+  computed原理
+  keep-alive原理
+  nextTick原理
+  vue如何将数组变为响应式数据
+  vue的v-for中一般为什么要绑定key，加上key一定会变得高效么
+七、算法题（编号为力扣网题号）
+  20.有效的括号(天眼查、伴鱼)
+  61.旋转链表(猿辅导)
+  64.最小路径和(滴滴)
+  88.合并两个有序数组(贝壳)
+  165.比较版本号(伴鱼)
+  187.重复的DNA序列(网易)
+  189.旋转数组(百度)
+  206.反转链表(滴滴)
+  226.翻转二叉树(滴滴)
+  283.移动零(快手、百度)
+  905.按奇偶排序数组(58)
+八、编程题
+  1.将1234567数字变成千分位格式1,234,567(天眼查、美团)
+  2.将[{id: '1', parentId: '0'},{id: '1-1', parentId: '1'}],改成树状结构为
+  [{
+    id: '1',
+    parentId: '0',
+    children: [{
+      id: '1-1',
+      parentId: '1'
+    }]
+  }](猿辅导)
+  3.设计一个并发请求接口，但每次请求数量最大为2(字节)
+  4.将多个promise改为串行(滴滴)
+  5.实现扁平化数组(百度)
+  6.实现vue的event bus(神策)
+  7.参照window.location里的属性解析url(58)
+  8.实现深拷贝(百度)
+  9.实现一个简单版vuex(快手)
+  10.将13123阿拉伯数字转为中文一万三千一百二十三(滴滴)
